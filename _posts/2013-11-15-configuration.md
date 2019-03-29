@@ -7,7 +7,8 @@ fullview: true
 ---
 
 In your config file change these settings
-
+<pre>
+<code>
 {% highlight yaml %}
 
 from tensorflow.examples.tutorials.mnist import input_data
@@ -40,3 +41,5 @@ correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}))
 {% endhighlight %}
+</code>
+</pre>
