@@ -10,7 +10,7 @@ disqus:
     shortname: test-shortname
 
 google_analytics: dbyll
-title: dbyll
+title: JungKyoo's blog
 
 defaults:
   -
