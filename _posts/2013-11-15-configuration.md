@@ -10,7 +10,7 @@ In your config file change these settings
 <pre>
 <code>
 {% highlight yaml %}
-
+```
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
@@ -40,6 +40,30 @@ for i in range(1000):
 correct_prediction = tf.equal(tf.argmax(y,1), tf.argmax(y_,1))
 accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}))
+```
 {% endhighlight %}
 </code>
 </pre>
+
+
+으아아아ㅏ ~~과제~~ 하기 귀찮다
+
+나는 ***배가고프다***
+
+안녕하세요
+# 안녕하세요
+
+안녕하세요
+## 안녕하세요
+
+안녕하세요
+### 안녕하세요
+
+안녕하세요
+#### 안녕하세요
+
+안녕하세요
+##### 안녕하세요
+
+안녕하세요  안녕안녕?
+###### 안녕하세요
